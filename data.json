@@ -1,0 +1,1052 @@
+{
+    "topics": {
+        "random": {
+            "flags": [],
+            "keywords": []
+        }
+    },
+    "gambits": {
+        "Ur6qvwAv": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "KYOrXcIV",
+                "abSfFN7M",
+                "5IQjwQws",
+                "oYhFgaHT",
+                "kGT2ybL7"
+            ],
+            "redirect": null,
+            "trigger": "(?:.*?)",
+            "raw": "*"
+        },
+        "YFixYeSw": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "lTDcM4vp",
+                "Q65zmwkP",
+                "7FcbjTfR",
+                "aG90ipPw"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)(\\bsorry\\b|\\bapologize\\b|\\bapology\\b)\\s?(?:\\s*(?:.*\\s?)\\s*|\\s*)",
+            "raw": "[*] (sorry|apologize|apology) [*]"
+        },
+        "o0fBQUhE": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "2JER9KQF",
+                "HGtjBW9J",
+                "qrMVoLrd",
+                "3UtmTpYL",
+                "yZS4hA1D",
+                "Urd8VMrC"
+            ],
+            "redirect": null,
+            "trigger": "I remember (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "I remember (*)"
+        },
+        "RO6mrf8G": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "4Nfe0DBd",
+                "RVl5S8J3",
+                "GUTQyp8N",
+                "4J9qMB66"
+            ],
+            "redirect": null,
+            "trigger": "do you remember (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "do you remember (*)"
+        },
+        "E8ojddof": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "plDbJZ4q",
+                "MacghY6I"
+            ],
+            "redirect": null,
+            "trigger": "you remember (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "you remember (*)"
+        },
+        "wToUwJeV": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "Gl5WV2xF",
+                "meFZoJfB",
+                "7v1Ccrcd",
+                "YqmQwtdz",
+                "6zFBnlav",
+                "Y7nX2qLa",
+                "M9P2cSDO"
+            ],
+            "redirect": null,
+            "trigger": "I forget (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "I forget (*)"
+        },
+        "lOCppiaj": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "Sy3NIdwk",
+                "snd8YWqt",
+                "XPxz8e4N",
+                "qsV3D6y4",
+                "Fv4bhIka"
+            ],
+            "redirect": null,
+            "trigger": "did you forget (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "did you forget (*)"
+        },
+        "QNDJbDVI": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "yOI33II1",
+                "VVSDMPlN",
+                "4YjbbMe9",
+                "ujhVl7qs",
+                "M6k8Und9",
+                "leTsj9DM",
+                "TCpzKQf0"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)if (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "[*] if (*)"
+        },
+        "TnoGGVmn": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "tgvUGt88",
+                "XCU1svp6",
+                "Y4pB0ndl",
+                "B1xyT7Vp",
+                "9cRmF7MP",
+                "4nYxnsnE",
+                "mHxYNbcL"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)I dreamed (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "[*] I dreamed (*)"
+        },
+        "lrF0wYZ1": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "yxtfriWG",
+                "Hy20U2bB",
+                "UkgDUHCV",
+                "LZ3oO74y",
+                "X1U5isnh",
+                "VtA2bPUI"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)perhaps(?:\\s*(?:.*\\s?)\\s*|\\s*)",
+            "raw": "[*] perhaps [*]"
+        },
+        "99bJk36I": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "Ymo0iiZn",
+                "vEV5Y10r"
+            ],
+            "redirect": null,
+            "trigger": "(\\bhello\\b|\\bhi\\b|\\bhey\\b|\\bhowdy\\b|\\bhola\\b|\\byes\\b|\\byou\\b)\\s?(?:\\s*(?:.*\\s?)\\s*|\\s*)",
+            "raw": "(hello|hi|hey|howdy|hola|yes|you) [*]"
+        },
+        "k4okoZpZ": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "fbFqEVYY",
+                "lZufkGvU",
+                "JnzkzoUl",
+                "b9q0p14A",
+                "F1cgx4Lz",
+                "IZqyYq2O"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)computer(?:\\s*(?:.*\\s?)\\s*|\\s*)",
+            "raw": "[*] computer [*]"
+        },
+        "JcxUMODC": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "ak1ZHUOt",
+                "CBy8ym4z",
+                "VLs1k4wv",
+                "asKS0bcl"
+            ],
+            "redirect": null,
+            "trigger": "am I (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "am I (*)"
+        },
+        "y77z9Le1": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "3otWkJGK",
+                "9KxG4y5k",
+                "xXpjJOZE",
+                "0IHqqdrf",
+                "yegJpUsW",
+                "6Cld9NCq"
+            ],
+            "redirect": null,
+            "trigger": "are you (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "are you (*)"
+        },
+        "gYm6Y5Jw": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "pFCZsjQe",
+                "mmeXwULz",
+                "wabAkbId",
+                "MIZwFqjD"
+            ],
+            "redirect": null,
+            "trigger": "you are (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "you are (*)"
+        },
+        "HJd45E6D": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "mY9uFXVm",
+                "1DMrt1Y2",
+                "WSDKgp45",
+                "NdBekCYN",
+                "IMcdV3ET"
+            ],
+            "redirect": null,
+            "trigger": "(?:.*\\s?)are (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "* are (*)"
+        },
+        "QlMuX46q": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "SSdCtQ9X",
+                "dOxxBL8j",
+                "gEt4j7W4",
+                "9IiTebPZ",
+                "zm5ojHW5",
+                "RBSVRARH"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)your (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "[*] your (*)"
+        },
+        "NMuqJil0": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "sCOEOODD",
+                "dYeSyfIa",
+                "IV8sxGNi",
+                "PaiWGvRA",
+                "Ub5OXKDO"
+            ],
+            "redirect": null,
+            "trigger": "was I (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "was I (*)"
+        },
+        "96LCZ70D": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "JoQcOZTR",
+                "SKH9VuIP",
+                "ZrwrDoZW"
+            ],
+            "redirect": null,
+            "trigger": "I was (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "I was (*)"
+        },
+        "xeWDAKM7": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "Atg3nUZX",
+                "JxmbbWj4",
+                "QDqT8xj0",
+                "wp0aoHsI",
+                "NlomvKKs"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)was you (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "[*] was you (*)"
+        },
+        "gwBDzQkE": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "IY1QN4zM",
+                "LBWOXLDt",
+                "3ohK13yf",
+                "zyUUFigg",
+                "tsjzV4SY",
+                "kW5ytSAM"
+            ],
+            "redirect": null,
+            "trigger": "I (\\b\\bdesire\\b\\b|\\b\\bwant\\b\\b|\\b\\bneed\\b\\b)\\s?\\s? (\\b\\b(?:.*\\s?)\\b\\b)\\s?\\s?",
+            "raw": "I (desire|want|need) (*)"
+        },
+        "o1s0gcUg": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "QHR2tW1s",
+                "9DLinK54",
+                "SBY9I0Md",
+                "Z73KC08f"
+            ],
+            "redirect": null,
+            "trigger": "I am (\\bsad\\b|\\bunhappy\\b|\\bmad\\b|\\bangry\\b|\\bpissed\\b|\\bdepressed\\b)\\s?(?:\\s*(?:.*\\s?)\\s*|\\s*)",
+            "raw": "I am (sad|unhappy|mad|angry|pissed|depressed) [*]"
+        },
+        "jaAeJwXT": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "oSo1yuFu",
+                "HpImlcqp",
+                "Hs52bIA7",
+                "MmwtY0lf"
+            ],
+            "redirect": null,
+            "trigger": "I am (\\bhappy\\b|\\bexcited\\b|\\bglad\\b)\\s?(?:\\s*(?:.*\\s?)\\s*|\\s*)",
+            "raw": "I am (happy|excited|glad) [*]"
+        },
+        "iEIB7o4F": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "30F8UEbg",
+                "buLYIBlG",
+                "LpE6OWfZ"
+            ],
+            "redirect": null,
+            "trigger": "I (\\b\\bbelieve\\b\\b|\\b\\bthink\\b\\b)\\s?\\s? (\\b\\b(?:.*\\s?)\\b\\b)\\s?\\s?",
+            "raw": "I (believe|think) (*)"
+        },
+        "eDKQm5uI": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "LxQLF5nI",
+                "n9cPYPd8",
+                "SNUjn9wA",
+                "RKOSTzi0",
+                "6boribkJ"
+            ],
+            "redirect": null,
+            "trigger": "I am (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "I am (*)"
+        },
+        "gcXRTCwi": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "j2gIgzMz",
+                "Ehr8SAkz",
+                "absCURlJ",
+                "hhbsudZx",
+                "7t3movMj"
+            ],
+            "redirect": null,
+            "trigger": "I can not (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "I can not (*)"
+        },
+        "ocIboPWb": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "da1z6Cf5",
+                "gD3Qsgyr",
+                "TPEh0iaD",
+                "GfLeQmEh"
+            ],
+            "redirect": null,
+            "trigger": "I do not (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "I do not (*)"
+        },
+        "QcP5agA8": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "rE9JWI0t",
+                "TBeHHPak",
+                "o7fTXmEu",
+                "IVWzEpd6"
+            ],
+            "redirect": null,
+            "trigger": "I feel (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "I feel (*)"
+        },
+        "5eRqsHGm": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "c0VVD5AP",
+                "OIrW0gaS",
+                "Zuf9TrIF",
+                "hObF05TG"
+            ],
+            "redirect": null,
+            "trigger": "I (\\b(?:.*\\s?)\\b)\\s? you",
+            "raw": "I (*) you"
+        },
+        "BWPXQ8Ux": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "Ti0bpuSa",
+                "vk5xu0xq",
+                "56T5rxmp",
+                "ngTmc7kQ",
+                "7Q8MwJR1",
+                "r3wj1wyQ",
+                "meUPZ4X4"
+            ],
+            "redirect": null,
+            "trigger": "you (\\b(?:.*\\s?)\\b)\\s? me",
+            "raw": "you (*) me"
+        },
+        "kwURCzGh": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "qVZj6kmB",
+                "1tUBMDdK",
+                "tOX4sNgn",
+                "xhYBM1vU"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)you (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "[*] you (*)"
+        },
+        "5rb3BWMY": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "V2Za7QSL",
+                "KSOx1XqN",
+                "JvZT3BFQ",
+                "u1M4nLJ4",
+                "trhE2Ylm"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)(\\byes\\b|\\byeah\\b|\\byep\\b|\\byup\\b)\\s?(?:\\s*(?:.*\\s?)\\s*|\\s*)",
+            "raw": "[*] (yes|yeah|yep|yup) [*]"
+        },
+        "Y6SL1YC4": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "NtpHSa0F",
+                "hBAHUgqW",
+                "fXhTc1RS",
+                "EOiLyirb"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)(\\bnope\\b|\\bnah\\b)\\s?(?:\\s*(?:.*\\s?)\\s*|\\s*)",
+            "raw": "[*] (nope|nah) [*]"
+        },
+        "PrHIsLkh": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [],
+            "redirect": "nope",
+            "trigger": "~no",
+            "raw": "~no"
+        },
+        "1sSTwJFj": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "HWxL02Re",
+                "y8qTyKsF",
+                "6pNud7Zt",
+                "bx0tihoZ",
+                "2IxM1kpY",
+                "3GlnTbiS",
+                "AeLXAWOQ"
+            ],
+            "redirect": null,
+            "trigger": "no one (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "no one (*)"
+        },
+        "pBGZfGay": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "CCm5nqZh",
+                "WjDg6kJq",
+                "e460rofk",
+                "sFzQymsa"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)my (\\b\\bmom\\b\\b|\\b\\bdad\\b\\b|\\b\\bmother\\b\\b|\\b\\bfather\\b\\b|\\b\\bbrother\\b\\b|\\b\\bbrother\\b\\b|\\b\\bsis\\b\\b|\\b\\bsister\\b\\b|\\b\\bcousin\\b\\b|\\b\\baunt\\b\\b|\\b\\buncle\\b\\b)\\s?\\s? (\\b\\b(?:.*\\s?)\\b\\b)\\s?\\s?",
+            "raw": "[*] my (mom|dad|mother|father|brother|brother|sis|sister|cousin|aunt|uncle) (*)"
+        },
+        "YNMmWnFi": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "bZTaYb4h",
+                "vfkSi7cS",
+                "O0NNJdP5"
+            ],
+            "redirect": null,
+            "trigger": "can you (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "can you (*)"
+        },
+        "IwsmW2rQ": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "Dfyxau4d",
+                "680bwrdh",
+                "nwWC1FjG"
+            ],
+            "redirect": null,
+            "trigger": "can I (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "can I (*)"
+        },
+        "SqRXoCvX": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "dMn4W1VT",
+                "EXiWsg0r",
+                "TMzHqQBW",
+                "dpRRdkf3",
+                "MR6m1izX",
+                "9T4GXdWQ",
+                "BzAiSbBH",
+                "Jg89H1q4",
+                "8LfU4vm2"
+            ],
+            "redirect": null,
+            "trigger": "(\\bwhat\\b|\\bwho\\b|\\bwhen\\b|\\bwhere\\b|\\bhow\\b)\\s?(?:\\s*(?:.*\\s?)\\s*|\\s*)",
+            "raw": "(what|who|when|where|how) [*]"
+        },
+        "XgU6N7e6": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "rM04nq9S",
+                "OLhIf7ZN",
+                "EHftgavB",
+                "IGapYxOE"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)because(?:\\s*(?:.*\\s?)\\s*|\\s*)",
+            "raw": "[*] because [*]"
+        },
+        "5FimUL50": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "IpIrn25G",
+                "BgJE3rkL",
+                "PAEFGB6n",
+                "pztf1v2K"
+            ],
+            "redirect": null,
+            "trigger": "why do not you (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "why do not you (*)"
+        },
+        "YEefT2Q2": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "Es5Ud5RJ",
+                "D0LpVaH2",
+                "cHzdPLEx",
+                "f7S0vpJM"
+            ],
+            "redirect": null,
+            "trigger": "why can not I (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "why can not I (*)"
+        },
+        "KokjkWoZ": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "S6VYbgju",
+                "YPDwPycL",
+                "qTYlwPOd",
+                "sRSID87l",
+                "4r1ZtmFw",
+                "gNTeN9y4",
+                "kF1E9dGj",
+                "GiPXGyjI",
+                "fUhoM1C5"
+            ],
+            "redirect": null,
+            "trigger": "everyone (\\b(?:.*\\s?)\\b)\\s?",
+            "raw": "everyone (*)"
+        },
+        "qPILUjfU": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "JUol0nAT",
+                "aJR9EDYZ",
+                "KqeFyhPf",
+                "QzMptfvA",
+                "P2LVoGi1",
+                "S3QmQIjF"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*(?:.*\\s?)\\s*|\\s*)(\\bfuck\\b|\\bfucker\\b|\\bshit\\b|\\bdamn\\b|\\bshut up\\b|\\bbitch\\b)\\s?(?:\\s*(?:.*\\s?)\\s*|\\s*)",
+            "raw": "[*] (fuck|fucker|shit|damn|shut up|bitch) [*]"
+        }
+    },
+    "replys": {
+        "KYOrXcIV": "I'm not sure I understand you fully.",
+        "abSfFN7M": "Please go on.",
+        "5IQjwQws": "That is interesting. Please continue.",
+        "oYhFgaHT": "Tell me more about that.",
+        "kGT2ybL7": "Does talking about this bother you?",
+        "lTDcM4vp": "Please don't apologize.",
+        "Q65zmwkP": "Apologies are not necessary.",
+        "7FcbjTfR": "I've told you that apologies are not required.",
+        "aG90ipPw": "It did not bother me. Please continue.",
+        "2JER9KQF": "Do you often think of <cap>?",
+        "HGtjBW9J": "Does thinking of <cap> bring anything else to mind?",
+        "qrMVoLrd": "Why do you remember <cap> just now?",
+        "3UtmTpYL": "What in the present situation reminds you of <cap>?",
+        "yZS4hA1D": "What is the connection between me and <cap>?",
+        "Urd8VMrC": "What else does <cap> remind you of?",
+        "4Nfe0DBd": "Did you think I would forget <cap>?",
+        "RVl5S8J3": "Why do you think I should recall <cap> now?",
+        "GUTQyp8N": "What about <cap>?",
+        "4J9qMB66": "You mentioned <cap>?",
+        "plDbJZ4q": "How could I forget <cap>?",
+        "MacghY6I": "What about <cap> should I remember?",
+        "Gl5WV2xF": "Can you think of why you might forget <cap>?",
+        "meFZoJfB": "Why can't you remember <cap>?",
+        "7v1Ccrcd": "How often do you think of <cap>?",
+        "YqmQwtdz": "Does it bother you to forget that?",
+        "6zFBnlav": "Could it be a mental block?",
+        "Y7nX2qLa": "Are you generally forgetful?",
+        "M9P2cSDO": "Do you think you are suppressing <cap>?",
+        "Sy3NIdwk": "Why do you ask?",
+        "snd8YWqt": "Are you sure you told me?",
+        "XPxz8e4N": "Would it bother you if I forgot <cap>?",
+        "qsV3D6y4": "Why should I recall <cap> just now?",
+        "Fv4bhIka": "Tell me more about <cap>.",
+        "yOI33II1": "Do you think it's likely that <cap>?",
+        "VVSDMPlN": "Do you wish that <cap>?",
+        "4YjbbMe9": "What do you know about <cap>?",
+        "ujhVl7qs": "Really, if <cap>?",
+        "M6k8Und9": "What would you do if <cap>?",
+        "leTsj9DM": "But what are the chances that <cap>?",
+        "TCpzKQf0": "What does this speculation lead to?",
+        "tgvUGt88": "Really, <cap>?",
+        "XCU1svp6": "Have you ever fantasized <cap> while you were awake?",
+        "Y4pB0ndl": "Have you ever dreamed <cap> before?",
+        "B1xyT7Vp": "What does that dream suggest to you?",
+        "9cRmF7MP": "Do you dream often?",
+        "4nYxnsnE": "What persons appear in your dreams?",
+        "mHxYNbcL": "Do you believe that dreams have something to do with your problem?",
+        "yxtfriWG": "You don't seem quite certain.",
+        "Hy20U2bB": "Why the uncertain tone?",
+        "UkgDUHCV": "Can't you be more positive?",
+        "LZ3oO74y": "You aren't sure?",
+        "X1U5isnh": "Don't you know?",
+        "VtA2bPUI": "How likely, would you estimate?",
+        "Ymo0iiZn": "How do you do. Please state your problem.",
+        "vEV5Y10r": "Hi. What seems to be your problem?",
+        "fbFqEVYY": "Do computers worry you?",
+        "lZufkGvU": "Why do you mention computers?",
+        "JnzkzoUl": "What do you think machines have to do with your problem?",
+        "b9q0p14A": "Don't you think computers can help people?",
+        "F1cgx4Lz": "What about machines worries you?",
+        "IZqyYq2O": "What do you think about machines?",
+        "ak1ZHUOt": "Do you believe you are <cap>?",
+        "CBy8ym4z": "Would you want to be <cap>?",
+        "VLs1k4wv": "Do you wish I would tell you you are <cap>?",
+        "asKS0bcl": "What would it mean if you were <cap>?",
+        "3otWkJGK": "Are you interested in whether I am <cap> or not?",
+        "9KxG4y5k": "Would you prefer if I weren't <cap>?",
+        "xXpjJOZE": "Perhaps I am <cap> in your fantasies.",
+        "0IHqqdrf": "Do you sometimes think I am <cap>?",
+        "yegJpUsW": "Would it matter to you?",
+        "6Cld9NCq": "What if I were <cap>?",
+        "pFCZsjQe": "What makes you think I am <star>?",
+        "mmeXwULz": "Does it please you to believe I am <star>?",
+        "wabAkbId": "Do you sometimes wish you were <star>?",
+        "MIZwFqjD": "Perhaps you would like to be <star>.",
+        "mY9uFXVm": "Did you think they might not be <cap2>?",
+        "1DMrt1Y2": "Would you like it if they were not <cap2>?",
+        "WSDKgp45": "What if they were not <cap2>?",
+        "NdBekCYN": "Are they always <cap2>?",
+        "IMcdV3ET": "Are you positive they are <cap2>?",
+        "SSdCtQ9X": "Why are you concerned over my <cap>?",
+        "dOxxBL8j": "What about your own <cap>?",
+        "gEt4j7W4": "Are you worried about someone else's <cap>?",
+        "9IiTebPZ": "Really, my <cap>?",
+        "zm5ojHW5": "What makes you think of my <cap>?",
+        "RBSVRARH": "Do you want my <cap>?",
+        "sCOEOODD": "What if you were <cap>?",
+        "dYeSyfIa": "Do you think you were <cap>?",
+        "IV8sxGNi": "Were you <cap>?",
+        "PaiWGvRA": "What would it mean if you were <cap>?",
+        "Ub5OXKDO": "What does '<cap>' suggest to you?",
+        "JoQcOZTR": "Were you really?",
+        "SKH9VuIP": "Why do you tell me you were <cap> now?",
+        "ZrwrDoZW": "Perhaps I already know you were <cap>.",
+        "Atg3nUZX": "Would you like to believe I was <cap>?",
+        "JxmbbWj4": "What suggests that I was <cap>?",
+        "QDqT8xj0": "What do you think?",
+        "wp0aoHsI": "Perhaps I was <cap>.",
+        "NlomvKKs": "What if I had been <cap>?",
+        "IY1QN4zM": "What would it mean to you if you got <cap2>?",
+        "LBWOXLDt": "Why do you want <cap2>?",
+        "3ohK13yf": "Suppose you got <cap2> soon.",
+        "zyUUFigg": "What if you never got <cap2>?",
+        "tsjzV4SY": "What would getting <cap2> mean to you?",
+        "kW5ytSAM": "What does wanting <cap2> have to do with this discussion?",
+        "QHR2tW1s": "I am sorry to hear that you are <cap>.",
+        "9DLinK54": "Do you think coming here will help you not to be <cap>?",
+        "SBY9I0Md": "I'm sure it's not pleasant to be <cap>.",
+        "Z73KC08f": "Can you explain what made you <cap>?",
+        "oSo1yuFu": "How have I helped you to be <cap>?",
+        "HpImlcqp": "Has your treatment made you <cap>?",
+        "Hs52bIA7": "What makes you <cap> just now?",
+        "MmwtY0lf": "Can you explain why you are <cap>?",
+        "30F8UEbg": "Do you really think so?",
+        "buLYIBlG": "But you are not sure you <cap2>.",
+        "LpE6OWfZ": "Do you really doubt you <cap2>",
+        "LxQLF5nI": "Is it because you are <cap> that you came to me?",
+        "n9cPYPd8": "How long have you been <cap>?",
+        "SNUjn9wA": "Do you believe it is normal to be <cap>?",
+        "RKOSTzi0": "Do you enjoy being <cap>?",
+        "6boribkJ": "Do you know anyone else who is <cap>?",
+        "j2gIgzMz": "How do you know that you can't <cap>?",
+        "Ehr8SAkz": "Have you tried?",
+        "absCURlJ": "Perhaps you could <cap> now.",
+        "hhbsudZx": "Do you really want to be able to <cap>?",
+        "7t3movMj": "What if you could <cap>?",
+        "da1z6Cf5": "Don't you really <cap>?",
+        "gD3Qsgyr": "Why don't you <cap>?",
+        "TPEh0iaD": "Do you wish to be able to <cap>?",
+        "GfLeQmEh": "Does that trouble you?",
+        "rE9JWI0t": "Tell me more about such feelings.",
+        "TBeHHPak": "Do you often feel <cap>?",
+        "o7fTXmEu": "Do you enjoy feeling <cap>?",
+        "IVWzEpd6": "Of what does feeling <cap> remind you?",
+        "c0VVD5AP": "Perhaps in your fantasies we <cap> each other.",
+        "OIrW0gaS": "Do you wish to <cap> me?",
+        "Zuf9TrIF": "You seem to need to <cap> me.",
+        "hObF05TG": "Do you <cap> anyone else?",
+        "Ti0bpuSa": "Why do you think I <cap> you?",
+        "vk5xu0xq": "You like to think I <cap> you -- don't you?",
+        "56T5rxmp": "What makes you think I <cap> you?",
+        "ngTmc7kQ": "Really, I <cap> you?",
+        "7Q8MwJR1": "Do you wish to believe I <cap> you?",
+        "r3wj1wyQ": "Suppose I did <cap> you -- what would that mean?",
+        "meUPZ4X4": "Does someone else believe I <cap> you?",
+        "qVZj6kmB": "We were discussing you -- not me.",
+        "1tUBMDdK": "Oh, I <cap>?",
+        "tOX4sNgn": "You're not really talking about me -- are you?",
+        "xhYBM1vU": "What are your feelings now?",
+        "V2Za7QSL": "Please go on.",
+        "KSOx1XqN": "Please tell me more about this.",
+        "JvZT3BFQ": "Why don't you tell me a little more about this.",
+        "u1M4nLJ4": "I see.",
+        "trhE2Ylm": "I understand.",
+        "NtpHSa0F": "Are you saying no just to be negative?",
+        "hBAHUgqW": "Does this make you feel unhappy?",
+        "fXhTc1RS": "Why not?",
+        "EOiLyirb": "Why 'no'?",
+        "HWxL02Re": "Are you sure, no one <cap>?",
+        "y8qTyKsF": "Surely someone <cap>.",
+        "6pNud7Zt": "Can you think of anyone at all?",
+        "bx0tihoZ": "Are you thinking of a very special person?",
+        "2IxM1kpY": "Who, may I ask?",
+        "3GlnTbiS": "You have a particular person in mind, don't you?",
+        "AeLXAWOQ": "Who do you think you are talking about?",
+        "CCm5nqZh": "Tell me more about your family.",
+        "WjDg6kJq": "Who else in your family <cap2>?",
+        "e460rofk": "Your <cap>?",
+        "sFzQymsa": "What else comes to mind when you think of your <cap>?",
+        "bZTaYb4h": "You believe I can <cap> don't you?",
+        "vfkSi7cS": "You want me to be able to <cap>.",
+        "O0NNJdP5": "Perhaps you would like to be able to <cap> yourself.",
+        "Dfyxau4d": "Whether or not you can <cap> depends on you more than on me.",
+        "680bwrdh": "Do you want to be able to <cap>?",
+        "nwWC1FjG": "Perhaps you don't want to <cap>.",
+        "dMn4W1VT": "Why do you ask?",
+        "EXiWsg0r": "Does that question interest you?",
+        "TMzHqQBW": "What is it you really want to know?",
+        "dpRRdkf3": "Are such questions much on your mind?",
+        "MR6m1izX": "What answer would please you most?",
+        "9T4GXdWQ": "What do you think?",
+        "BzAiSbBH": "What comes to mind when you ask that?",
+        "Jg89H1q4": "Have you asked such questions before?",
+        "8LfU4vm2": "Have you asked anyone else?",
+        "rM04nq9S": "Is that the real reason?",
+        "OLhIf7ZN": "Don't any other reasons come to mind?",
+        "EHftgavB": "Does that reason seem to explain anything else?",
+        "IGapYxOE": "What other reasons might there be?",
+        "IpIrn25G": "Do you believe I don't <cap>?",
+        "BgJE3rkL": "Perhaps I will <cap> in good time.",
+        "PAEFGB6n": "Should you <cap> yourself?",
+        "pztf1v2K": "You want me to <cap>?",
+        "Es5Ud5RJ": "Do you think you should be able to <cap>?",
+        "D0LpVaH2": "Do you want to be able to <cap>?",
+        "cHzdPLEx": "Do you believe this will help you to <cap>?",
+        "f7S0vpJM": "Have you any idea why you can't <cap>?",
+        "S6VYbgju": "Really, everyone?",
+        "YPDwPycL": "Surely not everyone.",
+        "qTYlwPOd": "Can you think of anyone in particular?",
+        "sRSID87l": "Who, for example?",
+        "4r1ZtmFw": "Are you thinking of a very special person?",
+        "gNTeN9y4": "Who, may I ask?",
+        "kF1E9dGj": "Someone special perhaps?",
+        "GiPXGyjI": "You have a particular reason in mind, don't you?",
+        "fUhoM1C5": "Who do you think you're talking about?",
+        "JUol0nAT": "Does it make you feel strong to use that kind of language?",
+        "aJR9EDYZ": "Are you venting your feelings now?",
+        "KqeFyhPf": "Are you angry?",
+        "QzMptfvA": "Does this topic make you feel angry?",
+        "P2LVoGi1": "Is something making you feel angry?",
+        "S3QmQIjF": "Does using that kind of language make you feel better?"
+    },
+    "checksums": {
+        "./topics/main.ss": "a6e7779f1c70a70878e514968b8576759067ae5d"
+    }
+}

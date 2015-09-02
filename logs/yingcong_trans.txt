@@ -1,0 +1,27 @@
+Wed Sep 02 2015 22:14:03 GMT+0800 (SGT) (user) h 
+Wed Sep 02 2015 22:14:13 GMT+0800 (SGT) (user) ~emohello 
+Wed Sep 02 2015 22:14:14 GMT+0800 (SGT) (bot) Hello 
+Wed Sep 02 2015 22:15:16 GMT+0800 (SGT) (user) ~emohello 
+Wed Sep 02 2015 22:15:17 GMT+0800 (SGT) (bot) How are you? 
+Wed Sep 02 2015 22:15:22 GMT+0800 (SGT) (user) I am good you 
+Wed Sep 02 2015 22:15:22 GMT+0800 (SGT) (bot) Does talking about this bother you? 
+Wed Sep 02 2015 22:15:27 GMT+0800 (SGT) (user) no it does not 
+Wed Sep 02 2015 22:15:27 GMT+0800 (SGT) (bot) Tell me more about that. 
+Wed Sep 02 2015 22:15:30 GMT+0800 (SGT) (user) ~emohello 
+Wed Sep 02 2015 22:15:31 GMT+0800 (SGT) (bot) Howdy 
+Wed Sep 02 2015 22:15:32 GMT+0800 (SGT) (user) shut up 
+Wed Sep 02 2015 22:15:32 GMT+0800 (SGT) (bot) That is interesting. Please continue. 
+Wed Sep 02 2015 22:15:36 GMT+0800 (SGT) (user) ~emosurprise 
+Wed Sep 02 2015 22:15:36 GMT+0800 (SGT) (bot) Please go on. 
+Wed Sep 02 2015 22:15:39 GMT+0800 (SGT) (user) ~emobored 
+Wed Sep 02 2015 22:15:39 GMT+0800 (SGT) (bot) I'm not sure I understand you fully. 
+Wed Sep 02 2015 22:15:46 GMT+0800 (SGT) (user) Am I a man 
+Wed Sep 02 2015 22:15:46 GMT+0800 (SGT) (bot) What would it mean if you were a man? 
+Wed Sep 02 2015 22:15:53 GMT+0800 (SGT) (user) Nothing 
+Wed Sep 02 2015 22:16:03 GMT+0800 (SGT) (user) it just means that I am smart 
+Wed Sep 02 2015 22:16:10 GMT+0800 (SGT) (user) Is the weather good 
+Wed Sep 02 2015 22:16:15 GMT+0800 (SGT) (user) ~emohowzit 
+Wed Sep 02 2015 22:16:19 GMT+0800 (SGT) (user) ~emohello 
+Wed Sep 02 2015 22:16:19 GMT+0800 (SGT) (bot) Hi, how are you? 
+Wed Sep 02 2015 22:16:22 GMT+0800 (SGT) (user) ~emohowzit 
+Wed Sep 02 2015 22:16:22 GMT+0800 (SGT) (bot) Does talking about this bother you? 
