@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "superscript": "latest",
-    "sfacts": "latest",
-    "mongoose": "3.8.24",
     "debug": "~2.0.0",
-    "slack-client": "~1.2.2"
+    "mongoose": "3.8.24",
+    "request": "^2.61.0",
+    "sfacts": "latest",
+    "slack-client": "~1.2.2",
+    "superscript": "latest"
   }
 }

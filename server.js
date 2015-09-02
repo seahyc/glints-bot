@@ -2,7 +2,7 @@
 // Auth Token - You can generate your token from 
 // https://<slack_name>.slack.com/services/new/bot
 var token = process.env.TOKEN;
-
+var request = require('request');
 // This is the main Bot interface
 var superscript = require("superscript");
 var mongoose = require("mongoose");
@@ -38,7 +38,55 @@ var botHandle = function(err, bot) {
   });
 
   slack.on('open', function(){
+    var channel, channels, group, groups, id, messages, unreads;
+    channels = [];
+    groups = [];
+    unreads = slack.getUnreadCount();
+    channels = (function() {
+      var _ref, _results;
+      _ref = slack.channels;
+      _results = [];
+      for (id in _ref) {
+        channel = _ref[id];
+        if (channel.is_member) {
+          _results.push("#" + channel.name + ' ('+id+')');
+        }
+      }
+      return _results;
+    })();
+    groups = (function() {
+      var _ref, _results;
+      _ref = slack.groups;
+      _results = [];
+      for (id in _ref) {
+        group = _ref[id];
+        if (group.is_open && !group.is_archived) {
+          _results.push(group.name + ' ('+id+')');
+        }
+      }
+      return _results;
+    })();
     console.log("Welcome to Slack. You are %s of %s", slack.self.name, slack.team.name);
+    console.log('You are in: ' + channels.join(', '));
+    console.log('As well as: ' + groups.join(', '));
+    messages = unreads === 1 ? 'message' : 'messages';
+    console.log("You have " + unreads + " unread " + messages);
+    var startDate = new Date("2015-09-02T16:00:00");
+    var endDate = new Date("2015-09-03T16:00:00");
+    if (new Date()>= startDate && new Date() <= endDate){
+      var channel = slack.getChannelGroupOrDMByID('G08BVV1MY');
+      setInterval(function(){
+        if (new Date().getMinutes() === 0 || new Date().getMinutes() === 30){
+          request.get('http://api.icndb.com/jokes/random?escape=javascript', function (err, res, body){
+            var results = JSON.parse(body);
+            var joke = results.value.joke;
+            joke = joke.replace('Chuck Norris', 'Wong Yong Jie');
+            // console.log(results);
+            channel.send('@yjwong: :sensei: Glints wishes you a *Happy Birthday* :birthday:!\n*Here\'s a true story:* :scream_cat: ' + joke);
+          })
+        }
+      }, 60000);
+    }
   });
 
   slack.on('close', function() {
@@ -69,10 +117,6 @@ var receiveData = function(slack, bot, data) {
   
   // Are they talking to us?
   if (match && match[1] === slack.self.id || keywordMatch) {
-    if (keywordMatch) {
-      replyType = 'public';
-    }
-
     message = message.replace(atReplyRE, '').trim();
     if (message[0] == ':') {
         message = message.substring(1).trim();
@@ -80,6 +124,9 @@ var receiveData = function(slack, bot, data) {
 
     bot.reply(user.name, message, function(err, reply){
       // We reply back direcly to the user
+      if (!reply.string) {
+        replyType = 'public';
+       }
 
       switch (replyType) {
         case "direct":
@@ -94,7 +141,7 @@ var receiveData = function(slack, bot, data) {
           break;
       }
 
-      if (reply.string) {
+      if (reply.string && user.id != slack.self.id) {
         channel.send(reply.string);
       }
         
