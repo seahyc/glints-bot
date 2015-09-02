@@ -1,11 +1,17 @@
 // A generic set of chatting responses. This set mimicks the classic Eliza bot.
 
-+ *
-- I'm not sure I understand you fully.
-- Please go on.
-- That is interesting. Please continue.
-- Tell me more about that.
-- Does talking about this bother you?
++ [*] joke [*]
+- When wearing a bikini,women reveal 90% of their body....men are so polite they only look at the covered parts
+- I think my neighbor is stalking me as she's been googling my name on her computer. I saw it through my telescope last night.
+- You know you're ugly when it comes to a group picture and they hand you the camera.
+- That awkward moment when you leave a store without buying anything and all you can think is "act natural, you're innocent".
+- Just read that 4,153,237 people got married last year, not to cause any trouble but shouldn't that be an even number?
+- A recent study has found that women who carry a little extra weight live longer than the men who mention it.
+- I want to die peacefully in my sleep, like my grandfather.. Not screaming and yelling like the passengers in his car.
+- When I call a family meeting I turn off the house wifi and wait for them all to come running.
+
++ [*] (gosh|funny) [*]
+- Haha. That's hilarious.
 
 + [*] (sorry|apologize|apology) [*]
 - Please don't apologize.
@@ -65,7 +71,7 @@
 - What persons appear in your dreams?
 - Do you believe that dreams have something to do with your problem?
 
-+ [*] perhaps [*]
++ [*] (perhaps|maybe) [*]
 - You don't seem quite certain.
 - Why the uncertain tone?
 - Can't you be more positive?
@@ -218,14 +224,11 @@
 - I see.
 - I understand.
 
-+ [*] (nope|nah) [*]
++ [*] (no|nope|nah) [*]
 - Are you saying no just to be negative?
 - Does this make you feel unhappy?
 - Why not?
 - Why 'no'?
-
-+ no
-@ nope
 
 + no one (*)
 - Are you sure, no one <cap>?
@@ -299,3 +302,10 @@
 - Does this topic make you feel angry?
 - Is something making you feel angry?
 - Does using that kind of language make you feel better?
+
+; + *
+; - I'm not sure I understand you fully.
+; - Please go on.
+; - That is interesting. Please continue.
+; - Tell me more about that.
+; - Does talking about this bother you?

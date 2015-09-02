@@ -61,12 +61,17 @@ var receiveData = function(slack, bot, data) {
   if (messageData && messageData.text) {
     message = "" + messageData.text.trim();
   }
+
+  var keywordMatch = message.match(/./);
   
   
   var match = message.match(atReplyRE);
   
   // Are they talking to us?
-  if (match && match[1] === slack.self.id) {
+  if (match && match[1] === slack.self.id || keywordMatch) {
+    if (keywordMatch) {
+      replyType = 'public';
+    }
 
     message = message.replace(atReplyRE, '').trim();
     if (message[0] == ':') {
