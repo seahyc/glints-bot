@@ -2,3 +2,5 @@ node_modules/
 logs/
 botfacts/
 systemDB/
+*.yml
+yml/

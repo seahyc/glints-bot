@@ -1,8 +1,18 @@
 
 // Auth Token - You can generate your token from 
 // https://<slack_name>.slack.com/services/new/bot
-var token = process.env.TOKEN;
 var request = require('request');
+var yaml = require('js-yaml');
+var fs = require('fs');
+
+try {
+  var doc = yaml.safeLoad(fs.readFileSync('yml/default.yml', 'utf8'));
+} catch (e) {
+  console.log(e);
+}
+
+var token = doc.slack.token;
+
 // This is the main Bot interface
 var superscript = require("superscript");
 var mongoose = require("mongoose");
@@ -76,13 +86,12 @@ var botHandle = function(err, bot) {
     if (new Date()>= startDate && new Date() <= endDate){
       var channel = slack.getChannelGroupOrDMByID('G08BVV1MY');
       setInterval(function(){
-        if (new Date().getMinutes() === 0 || new Date().getMinutes() === 30){
+        if (new Date().getMinutes() === 0){
           request.get('http://api.icndb.com/jokes/random?escape=javascript', function (err, res, body){
             var results = JSON.parse(body);
             var joke = results.value.joke;
-            joke = joke.replace('Chuck Norris', 'Wong Yong Jie');
-            // console.log(results);
-            channel.send('@yjwong: :sensei: Glints wishes you a *Happy Birthday* :birthday:!\n*Here\'s a true story:* :scream_cat: ' + joke);
+            joke = joke.replace(/Chuck Norris/g, 'Wong Yong Jie');
+            channel.send('@yjwong  :sensei: Glints wishes you a *Happy Birthday* :birthday:!\n*Here\'s a true story:* :scream_cat: ' + joke);
           })
         }
       }, 60000);
@@ -108,15 +117,19 @@ var receiveData = function(slack, bot, data) {
 
   if (messageData && messageData.text) {
     message = "" + messageData.text.trim();
-  }
+  } 
+
+  console.log(messageData);
 
   var keywordMatch = message.match(/./);
   
-  
+  var ventriloquist = message.match(/^vent:\ *(.*)/);
+  console.log('vwent', !!ventriloquist);
+
   var match = message.match(atReplyRE);
   
   // Are they talking to us?
-  if (match && match[1] === slack.self.id || keywordMatch) {
+  if (match && match[1] === slack.self.id || (keywordMatch && !ventriloquist)) {
     message = message.replace(atReplyRE, '').trim();
     if (message[0] == ':') {
         message = message.substring(1).trim();
@@ -148,12 +161,17 @@ var receiveData = function(slack, bot, data) {
     });
 
   } else if (messageData.channel[0] == "D") {
-    bot.reply(user.name, message, function(err, reply){
-      channel = slack.getChannelGroupOrDMByName(user.name);
-      if (reply.string) {
-        channel.send(reply.string);
-      }
-    });
+    if (!!ventriloquist){
+      channel = slack.getChannelGroupOrDMByName('pleasure-pavilion');
+      channel.send(ventriloquist[1]);
+    } else{
+      bot.reply(user.name, message, function(err, reply){
+        channel = slack.getChannelGroupOrDMByName(user.name);
+        if (reply.string) {
+          channel.send(reply.string);
+        }
+      });
+    }
   } else {
     console.log("Ignoring...", messageData);
   }
